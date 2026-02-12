@@ -22,3 +22,17 @@ By the end of this week, you will be able to:
 4.1 ROS 2 Tool Ecosystem
 
 CLI Tools    │  GUI Tools      │  Analysis Tools  
+
+ros2 node    │  rviz2          │  ros2 bag 
+
+ros2 topic   │  rqt_graph      │  ros2 doctor           
+
+ros2 service │  rqt_plot       │  ros2 wtf  
+
+ros2 param   │  rqt_console    │  performance_test
+
+ros2 action  │  rqt_reconfigure│  system_monitor    
+
+ros2 bag     │  plotjuggler    │  trace_analyzer 
+
+
