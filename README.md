@@ -107,3 +107,15 @@ Logging Configuration:
     ros2 run my_pkg my_node --ros-args --log-level rcl:=DEBUG
 
     
+4.5 Rosbag2: Data Recording and Playback
+Rosbag2 Features:
+
+Record specific topics or all topics
+
+Compressed storage
+
+SQLite3 database format
+
+Splitting large bags by size/time
+
+Converting between formats
