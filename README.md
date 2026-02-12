@@ -67,19 +67,19 @@ Panels: Time panel, tool properties
 Common Displays:
 
 
-Display	        Purpose	                Topic Type
+Display	   |    Purpose	            |      Topic Type
 
-RobotModel	    Visualize URDF          /robot_description
+RobotModel |    Visualize URDF      |     /robot_description
 
-TF	            Transform frames        /tf, /tf_static
+TF	       |    Transform frames    |    /tf, /tf_static
 
-LaserScan	    LiDAR data	            sensor_msgs/LaserScan
+LaserScan  |    LiDAR data	        |    sensor_msgs/LaserScan
 
-Image	        Camera feed	            sensor_msgs/Image
+Image	   |     Camera feed	    |       sensor_msgs/Image
 
-Marker	        Custom visualization    visualization_msgs/Marker
+Marker	   |     Custom visualization  |  visualization_msgs/Marker
 
-Path	        Robot path	            nav_msgs/Path
+Path	   |     Robot path	        |    nav_msgs/Path
 
-Pose	        Robot pose	            geometry_msgs/Pose
+Pose	   |     Robot pose	        |    geometry_msgs/Pose
 
