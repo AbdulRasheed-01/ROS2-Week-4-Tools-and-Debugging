@@ -20,4 +20,5 @@ By the end of this week, you will be able to:
 📚 Theory Content
 
 4.1 ROS 2 Tool Ecosystem
+
 CLI Tools    │  GUI Tools      │  Analysis Tools  
