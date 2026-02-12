@@ -119,3 +119,29 @@ SQLite3 database format
 Splitting large bags by size/time
 
 Converting between formats
+
+Storage Formats:
+
+Format	        |        Compression	|    Use Case
+
+SQLite3	        |        None	        |    Standard recording
+
+MCAP	        |        Optional	    |   Streaming, web
+
+SQLite3 + Compression  | ZSTD/LZ4	    |    Large datasets
+
+4.6 Performance Monitoring
+
+Key Metrics:
+
+Frequency: Topic publication rate
+
+Latency: Message propagation delay
+
+Jitter: Variation in timing
+
+Throughput: Messages per second
+
+CPU/Memory: Node resource usage
+
+Network: DDS traffic analysis
