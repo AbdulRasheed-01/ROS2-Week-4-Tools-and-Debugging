@@ -35,4 +35,8 @@ ros2 action  │  rqt_reconfigure│  system_monitor
 
 ros2 bag     │  plotjuggler    │  trace_analyzer 
 
+4.2 Understanding ROS 2 CLI Tools
 
+Core Command Structure:
+
+ros2 <command> <subcommand> [arguments] [options]
