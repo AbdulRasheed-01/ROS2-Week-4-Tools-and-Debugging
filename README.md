@@ -83,3 +83,27 @@ Path	   |     Robot path	        |    nav_msgs/Path
 
 Pose	   |     Robot pose	        |    geometry_msgs/Pose
 
+4.4 ROS 2 Logging System
+
+Logging Levels (Increasing Severity):
+
+    DEBUG   # Fine-grained debug information
+    INFO    # Normal operational messages
+    WARN    # Something unexpected but not critical
+    ERROR   # Something failed but system continues
+    FATAL   # Critical failure, system cannot continue
+
+Logging Configuration:
+
+    #Set console output format
+    
+    export RCUTILS_CONSOLE_OUTPUT_FORMAT="[{severity}] [{name}]: {message}"
+
+    #Set logging level for all nodes
+
+    ros2 run my_pkg my_node --ros-args --log-level DEBUG
+
+    #Set logging level for specific node
+    ros2 run my_pkg my_node --ros-args --log-level rcl:=DEBUG
+
+    
