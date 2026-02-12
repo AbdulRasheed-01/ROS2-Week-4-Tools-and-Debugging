@@ -39,4 +39,17 @@ ros2 bag     │  plotjuggler    │  trace_analyzer
 
 Core Command Structure:
 
-ros2 <command> <subcommand> [arguments] [options]
+    ros2 <command> <subcommand> [arguments] [options]
+Command Categories:
+
+Node Management: node, run, pkg
+
+Communication: topic, service, action, param
+
+System: launch, lifecycle, multicast
+
+Data Recording: bag
+
+Diagnostics: doctor, wtf, component
+
+
