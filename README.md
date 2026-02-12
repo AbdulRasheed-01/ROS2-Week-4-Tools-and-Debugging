@@ -52,4 +52,14 @@ Data Recording: bag
 
 Diagnostics: doctor, wtf, component
 
+4.3 Visualization with RViz2
 
+RViz2 Architecture:
+
+Displays: Visualization plugins
+
+Tools: Interactive tools (Move Camera, Select, Interact)
+
+Views: Camera viewpoints
+
+Panels: Time panel, tool properties
