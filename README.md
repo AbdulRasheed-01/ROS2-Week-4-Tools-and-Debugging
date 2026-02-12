@@ -577,4 +577,19 @@ Create visualization/visualization_publisher.py:
 
     if __name__ == '__main__':
         main()
+2.2 RViz2 Practice Session:
 
+# Terminal 1: Run visualization publisher
+    ros2 run ros2_debugging visualization_publisher
+
+# Terminal 2: Start RViz2
+    rviz2
+
+# Terminal 3: Practice RViz2 CLI commands
+    rviz2 -d your_config.rviz  # Load saved config
+    rviz2 --help               # See all options
+
+# Terminal 4: Monitor RViz2 topics
+    ros2 topic list | grep visualization
+    ros2 topic info /visualization_marker
+    ros2 topic hz /visualization_marker
